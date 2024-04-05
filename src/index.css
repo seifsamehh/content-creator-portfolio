@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global components */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Switzer", sans-serif;
+}
+a,
+img,
+video,
+button,
+h1,
+h2,
+h3 {
+  user-select: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+}
+h1,
+h2 {
+  font-family: "Gambarino", serif;
+}
+::selection {
+  background-color: #4a00e0;
+  color: #cbd5e1;
+}
+
+/* loader */
+.loader {
+  height: 100%;
+  width: 100%;
+  background: #8e2de2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8e2de2,
+    #4a00e0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8e2de2,
+    #4a00e0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.follow {
+  position: absolute;
+  background-color: #cbd5e1;
+  height: 2px;
+  width: 0;
+  left: 0;
+  z-index: 2;
+}
+
+#progress-bar {
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  height: 2px;
+  width: 0;
+  transition: 0.4s ease-out;
+}
+
+#count {
+  position: absolute;
+  font-size: 130px;
+  color: #fff;
+  transform: translateY(-15px);
+  font-weight: 500;
+}
