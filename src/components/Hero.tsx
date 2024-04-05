@@ -29,7 +29,7 @@ const Hero = () => {
       </div>
       <div className="bottom">
         <img
-          src="/src/assets/content-creator-bg.webp"
+          src="https://res.cloudinary.com/dp9iqarvw/image/upload/v1712331403/content-creator-bg_qkqrdz.webp"
           className="object-cover w-full xs:h-[50vh] md:h-full"
           alt="test"
           loading="lazy"
