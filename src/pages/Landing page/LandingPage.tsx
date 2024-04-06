@@ -1,7 +1,7 @@
-import Hero from "@/components/Hero";
 import Loading from "@/components/Loading";
 import Header from "@/components/shared/Header";
-import About from "@/components/About";
+import Hero from "@/components/Hero";
+import AboutMe from "@/components/AboutMe";
 import TitleAnime from "@/components/TitleAnime";
 import Work from "@/components/Work";
 import Experience from "@/components/Experience";
@@ -17,7 +17,7 @@ const LandingPage = () => {
       <Header />
       <main className="landing-page">
         <Hero />
-        <About />
+        <AboutMe />
         <TitleAnime />
         <Work />
         <Experience />

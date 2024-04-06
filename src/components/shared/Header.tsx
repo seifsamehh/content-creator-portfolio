@@ -11,7 +11,7 @@ const Header = () => {
         <p className="text-xl font-bold">Hello.</p>
       </div>
       {/* Desktop */}
-      <div className="right xs:hidden md:block">
+      <div className="right min-[290px]:hidden md:block">
         <nav className="flex items-center justify-center gap-2">
           <NavLink
             to="/"
@@ -48,7 +48,7 @@ const Header = () => {
         </nav>
       </div>
       {/* Mobile */}
-      <div className="right xs:block md:hidden">
+      <div className="right min-[290px]:block md:hidden">
         <DrawerDemo />
       </div>
     </header>

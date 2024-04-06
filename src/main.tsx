@@ -4,10 +4,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "./pages/Landing page/LandingPage";
 import AboutPage from "./pages/About Page/AboutPage";
 import ErrorPage from "./pages/Error Page/ErrorPage";
-import WorkPage from "./pages/Work Page/WorkPage";
+import ContactPage from "./pages/Contact Page/ContactPage";
+import BookPage from "./pages/Book Page/BookPage";
 import { Parallax } from "./hooks/useParallaxAnimation";
 import "./index.css";
-import ContactPage from "./pages/Contact Page/ContactPage";
 
 const router = createBrowserRouter([
   {
@@ -19,14 +19,8 @@ const router = createBrowserRouter([
     element: <AboutPage />,
   },
   {
-    path: "/work",
-    element: <WorkPage />,
-    children: [
-      {
-        path: "/work/:id",
-        element: <WorkPage />,
-      },
-    ],
+    path: "/work/:id",
+    element: <BookPage />,
   },
   {
     path: "/contact",

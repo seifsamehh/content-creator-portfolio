@@ -29,10 +29,10 @@ const TitleAnime = () => {
   });
   return (
     <section className="overflow-hidden title-anime">
-      <h2 className="title-1 xs:text-7xl md:text-[15rem] text-transparent bg-gradient-to-r from-[#8e2de2] via-[#851de0] to-[#4a00e0] bg-clip-text">
+      <h2 className="title-1 min-[290px]:text-7xl md:text-[15rem] text-transparent bg-gradient-to-r from-[#8e2de2] via-[#851de0] to-[#4a00e0] bg-clip-text">
         Content
       </h2>
-      <h2 className="title-2 xs:text-7xl md:text-[15rem] text-end text-transparent bg-gradient-to-l from-[#8e2de2] via-[#851de0] to-[#4a00e0] bg-clip-text">
+      <h2 className="title-2 min-[290px]:text-7xl md:text-[15rem] text-end text-transparent bg-gradient-to-l from-[#8e2de2] via-[#851de0] to-[#4a00e0] bg-clip-text">
         Creator
       </h2>
     </section>

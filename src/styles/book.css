@@ -1,0 +1,7 @@
+.book-page {
+  background-image: url("/blob-scene-haikei.svg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

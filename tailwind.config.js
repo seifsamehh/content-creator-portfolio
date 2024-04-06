@@ -7,15 +7,7 @@ export default {
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
   ],
-  theme: {
-    screens: {
-      xs: "320px",
-      sm: "480px",
-      md: "768px",
-      lg: "976px",
-      xl: "1440px",
-    },
-  },
+  theme: {},
   extend: {
     keyframes: {
       "accordion-down": {
