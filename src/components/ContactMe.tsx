@@ -15,7 +15,6 @@ const ContactMe = () => {
               type="text"
               id="text"
               className="bg-transparent focus:outline-none border-b-2 border-indigo-700 border-solid text-slate-900 text-sm block w-full p-2.5"
-              autoFocus
               required
             />
           </div>
