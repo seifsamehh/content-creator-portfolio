@@ -49,7 +49,7 @@ const Loading = () => {
   });
 
   return hasAppeared ? null : (
-    <section className="loading">
+    <section className="overflow-hidden loading">
       <div className="loader">
         <div className="follow"></div>
         <div
