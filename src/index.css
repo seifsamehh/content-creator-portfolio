@@ -86,3 +86,9 @@ h2 {
   transform: translateY(-15px);
   font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  #count {
+    font-size: 2rem;
+  }
+}
