@@ -1,4 +1,4 @@
-import WorkCarousel from "./ui/WorkCarousel";
+import WorkCarousel from "../ui/WorkCarousel";
 
 const Work = () => {
   return (

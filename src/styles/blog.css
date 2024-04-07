@@ -1,0 +1,22 @@
+.blog {
+  background-image: url("/blogBg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.blog::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 0, 224, 0.6);
+}
+
+.blog-content {
+  position: relative;
+  z-index: 1;
+}

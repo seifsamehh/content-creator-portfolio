@@ -33,6 +33,9 @@ h1,
 h2 {
   font-family: "Gambarino", serif;
 }
+ul {
+  list-style: disc;
+}
 ::selection {
   background-color: #4a00e0;
   color: #cbd5e1;

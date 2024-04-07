@@ -1,14 +1,16 @@
+import "../../styles/blog.css";
+
 const Blog = () => {
   const posts = [
     {
       id: 1,
       title: "Boost your conversion rate",
-      href: "#",
+      href: "/blog/1",
       description:
         "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
       date: "Mar 16, 2020",
       datetime: "2020-03-16",
-      category: { title: "Marketing", href: "#" },
+      category: { title: "Marketing", href: "/blog/1" },
       author: {
         name: "Michael Foster",
         role: "Co-Founder / CTO",
@@ -20,12 +22,12 @@ const Blog = () => {
     {
       id: 2,
       title: "Boost your conversion rate",
-      href: "#",
+      href: "/blog/2",
       description:
         "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
       date: "Mar 16, 2020",
       datetime: "2020-03-16",
-      category: { title: "Marketing", href: "#" },
+      category: { title: "Marketing", href: "/blog/2" },
       author: {
         name: "Michael Foster",
         role: "Co-Founder / CTO",
@@ -37,12 +39,12 @@ const Blog = () => {
     {
       id: 3,
       title: "Boost your conversion rate",
-      href: "#",
+      href: "/blog/3",
       description:
         "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
       date: "Mar 16, 2020",
       datetime: "2020-03-16",
-      category: { title: "Marketing", href: "#" },
+      category: { title: "Marketing", href: "/blog/3" },
       author: {
         name: "Michael Foster",
         role: "Co-Founder / CTO",
@@ -56,7 +58,7 @@ const Blog = () => {
 
   return (
     <section className="py-24 blog sm:py-32">
-      <div className="px-6 mx-auto max-w-7xl lg:px-8">
+      <div className="px-6 mx-auto blog-content max-w-7xl lg:px-8">
         <h2 className="text-center min-[290px]:text-7xl md:text-[12rem]">
           blogs
         </h2>
@@ -72,19 +74,19 @@ const Blog = () => {
                 </time>
                 <a
                   href={post.category.href}
-                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-900 hover:bg-gray-100"
                 >
                   {post.category.title}
                 </a>
               </div>
               <div className="relative group">
-                <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900">
                   <a href={post.href}>
                     <span className="absolute inset-0" />
                     {post.title}
                   </a>
                 </h3>
-                <p className="mt-5 text-sm leading-6 text-gray-600 line-clamp-3">
+                <p className="mt-5 text-sm leading-6 text-gray-900 line-clamp-3">
                   {post.description}
                 </p>
               </div>
@@ -101,7 +103,7 @@ const Blog = () => {
                       {post.author.name}
                     </a>
                   </p>
-                  <p className="text-gray-600">{post.author.role}</p>
+                  <p className="text-gray-900">{post.author.role}</p>
                 </div>
               </div>
             </article>

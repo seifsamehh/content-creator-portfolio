@@ -1,0 +1,23 @@
+.contact {
+  background-image: url("/contactBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(74, 0, 224, 0.6);
+}
+
+.contact .left,
+.contact .right {
+  position: relative;
+  z-index: 1;
+}

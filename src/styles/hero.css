@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 768px) {
   .hero .left {
-    background-position: -500px center;
+    background-position: center center;
   }
 }
 

@@ -1,4 +1,4 @@
-import ContactMe from "@/components/ContactMe";
+import ContactMe from "@/components/contact/ContactMe";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
 

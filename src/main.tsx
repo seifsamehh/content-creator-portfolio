@@ -6,6 +6,7 @@ import AboutPage from "./pages/About Page/AboutPage";
 import ErrorPage from "./pages/Error Page/ErrorPage";
 import ContactPage from "./pages/Contact Page/ContactPage";
 import BookPage from "./pages/Book Page/BookPage";
+import BlogPage from "./pages/Blog Page/BlogPage";
 import { Parallax } from "./hooks/useParallaxAnimation";
 import "./index.css";
 
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/work/:id",
     element: <BookPage />,
+  },
+  {
+    path: "/blog/:id",
+    element: <BlogPage />,
   },
   {
     path: "/contact",

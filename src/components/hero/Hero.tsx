@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
-import "../styles/hero.css";
+
+import "../../styles/hero.css";
 
 const Hero = () => {
   return (

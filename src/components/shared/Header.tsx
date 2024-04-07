@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { DrawerDemo } from "../DrawerDemo";
+import { DrawerDemo } from "../animations/DrawerDemo";
 
 const Header = () => {
   const activeLink = "text-indigo-900 text-xl font-bold";
